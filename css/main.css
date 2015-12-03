@@ -1,0 +1,108 @@
+*{
+	outline:1px ;
+}
+
+body,html{
+	height:100%;
+	font-family:'Cardo',serif;
+	padding-top: 	40px;
+	color:#111;
+	background-color: 	gray;
+	font-size: 16px;
+
+}
+
+
+/* nav */
+.navbar{
+	font-family:"Dosis";
+			font-size: 	20px;
+	/*position:absolute;
+	top:0;*/
+	height:76px;
+	width:100%;
+	padding-top: 15px;
+	background: #2d323a;
+}.nav-bar li{
+	padding-left: 15px;
+
+	padding-left: 15px;
+}
+.nav-bar i{
+	margin-right: 8px;	
+}
+
+/*shadow-nav*/
+.shadow-nav{
+	position:fixed;
+	top:76px;
+	width:100%;
+	height:15px;
+	z-index: 100;	
+	background: linear-gradient(#08121b,rgba(8,18,27,0.35),rgba(8,18,27,0));
+}
+
+.boton-ref{
+	border-radius: 	5% !important;
+}
+
+.boton-ref a{
+	padding:5px 10px !important;
+
+	border-radius: 	8% !important
+}
+
+.pointed{
+	border:1px gray dashed;
+	margin:20px 0;
+}
+
+img{
+	width:100%;
+	margin:auto;
+}
+
+.content{
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	width:90%;
+	background-color: 	white !important;
+
+}
+.projects .boton-ref{
+
+	position:relative;
+	left:40%;
+}
+
+.twitter i{
+	font-size: 	300%
+}
+.boton-ref-sm{
+	font-size: 	80%;
+	padding:2px 6px !important;
+}
+
+h4{
+	font-weight: 	bolder;
+}
+
+
+footer{
+	background-color: #2d323a !important;
+	padding-top: 10px;;
+}
+footer .brand{
+	font-family: 	Dosis;
+	font-size: 200%;
+}
+.redes p{
+	font-size: 	125%;
+}
+.redes, .redes a{
+	color:#eee;
+	opacity:0.85;
+}
+.foot-2 .active{
+		font-size:150%;
+}

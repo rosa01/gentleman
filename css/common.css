@@ -1,0 +1,21 @@
+a:active,a:hover{
+	text-decoration: none
+}
+a{
+	text-decoration: none
+	transition:all 1s ;
+}
+.boton-ref, .boton-ref-lg{
+	display:inline;
+}
+.boton-ref-lg a{
+	padding:25px 30px;
+	margin:10px 15px;
+
+}
+
+.boton-ref a:hover, .boton-ref-lg a:hover{
+	color:#ff1493;
+	text-shadow:white 0 0 10px;
+	background-color: 	black;
+}

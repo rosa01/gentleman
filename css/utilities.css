@@ -56,13 +56,17 @@ strong {
 .text-gray{
 	color: #888;
 }
+.bg-gray{
+	background-color:#666 !important;
+	color:white;
 
+}
 .text-green{
  	color: #0dc0c0;
 }
 
 .active {
-	color: #0dc0c0;
+	color: #ff1493 !important;
 }
 
 .a-none-decoration{
